@@ -336,6 +336,9 @@ body .bottom_bar{
     margin-right: auto;
     text-align: center;
 }
+.class{
+    position: absolute;
+}
 
 .bottom_holder{
     position: relative;
