@@ -318,7 +318,7 @@ body .bottom_bar{
 .top_grid{
     z-index: 11;
     background-color: var(--background);
-    position: fixed;
+    position: absolute;
     top: -10px;
     height: 60px;
     left: 0;
