@@ -25,7 +25,7 @@ html, body {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .top_grid {
