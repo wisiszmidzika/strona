@@ -70,4 +70,11 @@
     <script src="./showqr_files/show.js"></script>
     <script src="assetsdiff/manifest.js.pobrane"></script>
     <script src="./showqr_files/cache.js.pobrane"></script>
+    <script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js');
+  });
+}
+</script>
 </body></html>

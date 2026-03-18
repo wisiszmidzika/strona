@@ -202,4 +202,11 @@
     <script src="assetsdiff/manifest.js.pobrane"></script>
     <script src="assetsdiff/cache.js.pobrane"></script>
     <script src="assetsdiff/flow.js.pobrane"></script>
+    <script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js');
+  });
+}
+</script>
 </body></html>
